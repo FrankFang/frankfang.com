@@ -1,0 +1,36 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrap {
+  width: 600px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrap .bg {
+  background: transparent url("../image/film.jpg") repeat 0 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 469px;
+  height: 162px;
+}
+.wrap .bg .play {
+  position: absolute;
+  top: 54px;
+  left: 201px;
+  width: 67px;
+  height: 54px;
+  background: url("../image/play.jpg") no-repeat 0 0;
+}
+.wrap .bg .mask {
+  width: 469px;
+  height: 162px;
+  background: url("../image/mask.png") no-repeat 0 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  cursor: pointer;
+}
