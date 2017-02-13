@@ -332,3 +332,9 @@ body{
   margin: 4em auto;
 }
 
+x-markdown{
+  visibility: hidden;
+}
+x-markdown.converted{
+  visibility: visible;
+}
